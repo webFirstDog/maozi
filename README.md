@@ -4,9 +4,6 @@
 
 采用微信小程序编写 实现了为头像戴上毕业帽的功能
 
-基于 [我要戴口罩 idealclover/Wear-A-Mask](https://github.com/idealclover/Wear-A-Mask)
-
-
 ## 小程序截图
 ![image](https://github.com/webFirstDog/maozi/assets/22701477/0cfda531-ead9-4e41-bc89-8928cb17f9cf)
 ![image](https://github.com/webFirstDog/maozi/assets/22701477/971ac235-f1be-4575-8959-d03bcb6adc49)

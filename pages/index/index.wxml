@@ -1,0 +1,23 @@
+<!--pages/index/index.wxml-->
+<view class="flex padding justify-center">
+  <view class="solids" id="container" bind:touchstart="touchStart" bind:touchend="touchEnd" bind:touchmove="touchMove">
+    <image class="bgPic " src="{{bgPic}}"></image>
+    
+    <view class="handle" id="handle" style="top:{{handleCenterY-10+'px'}};left:{{handleCenterX-10+'px'}}"></view>
+    <image class="hat" id='hat' src="../../image/{{currentHatId}}.png" style="top:{{hatCenterY-hatSize/2-2+'px'}};left:{{hatCenterX-hatSize/2-2+'px'}};transform:rotate({{rotate+'deg'}}) scale({{scale}})"></image>
+  </view>
+
+</view>
+
+<scroll-view class="scrollView" scroll-x="true">
+  <image class="imgList" wx:for="{{imgList}}" wx:key="index" src="../../image/{{index+1}}.png" data-hat-id="{{index+1}}" bind:tap="chooseImg"></image>
+</scroll-view>
+<view class="flex">
+  <button class="flex-sub padding-lr-sm margin-xs radius cu-btn line-blue text-red margin-tb-sm lg" bind:tap="chooseImage">选择图片</button>
+  <button class="flex-sub padding-lr-sm margin-xs radius cu-btn bg-red margin-tb-sm lg" bind:tap="combinePic" disabled="{{!picChoosed}}">生成头像</button>
+</view>
+<view class="flex footer justify-center align-center">
+  <button class="cu-btn footer-item text-blue" open-type="share">
+      <view class="cuIcon-forward">分享给朋友</view>
+  </button>
+</view>

@@ -8,8 +8,12 @@
 
 
 ## 小程序截图
+![image](https://github.com/webFirstDog/maozi/assets/22701477/0cfda531-ead9-4e41-bc89-8928cb17f9cf)
+![image](https://github.com/webFirstDog/maozi/assets/22701477/971ac235-f1be-4575-8959-d03bcb6adc49)
+![image](https://github.com/webFirstDog/maozi/assets/22701477/2a5a6d95-9d1b-4616-9673-586386163816)
+![image](https://github.com/webFirstDog/maozi/assets/22701477/d727d86b-3a6f-4f4f-b507-b31e87f08920)
 
-![](https://image.idealclover.cn/projects/Wear-Bachelor-Cap/demo.jpg)
+
 
 ## 生成头像示例
 

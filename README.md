@@ -15,13 +15,6 @@
 
 
 
-## 生成头像示例
-
-![](https://image.idealclover.cn/projects/Wear-Bachelor-Cap/demo_icons.jpg)
-
-## 海报示例
-
-![](https://image.idealclover.cn/projects/Wear-Bachelor-Cap/demo_posters.jpg)
 
 ## 项目依赖
 

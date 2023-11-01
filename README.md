@@ -6,9 +6,6 @@
 
 基于 [我要戴口罩 idealclover/Wear-A-Mask](https://github.com/idealclover/Wear-A-Mask)
 
-## 扫码预览
-
-![](https://image.idealclover.cn/projects/Wear-Bachelor-Cap/qrcode.jpg)
 
 ## 小程序截图
 
